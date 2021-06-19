@@ -1,0 +1,30 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SangBeom-Lee/movieQl.git"
+  },
+  "author": "Sangbeom Lee <bumeeya2@naver.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SangBeom-Lee/movieQl/issues"
+  },
+  "homepage": "https://github.com/SangBeom-Lee/movieQl#readme",
+  "dependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
